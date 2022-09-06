@@ -1,4 +1,5 @@
 /*
+ * Comment section.
  * ColorFormat.cpp
  *
  *  Created on: Sep 1, 2022
