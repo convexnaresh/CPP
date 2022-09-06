@@ -1,0 +1,6 @@
+#ifndef ColorFormat_H    // To make sure you don't declare the function more than once by including the header multiple times.
+#define ColorFormat_H
+
+int main2();
+
+#endif
