@@ -1,4 +1,4 @@
-/*
+/*Test comment.
  * Comment section.
  * ColorFormat.cpp
  *
