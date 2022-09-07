@@ -83,6 +83,10 @@ int paddingZeros(){
 
 int numberFormatting() {
 
+
+	//std::cout << setprecision(3) << 2.71828;
+	//std::cout << setbase(16) << 32;
+
     // Print any message
     cout << "U for us!" << endl;;
     cout << "Decimal: " << 123 << endl;
@@ -93,10 +97,7 @@ int numberFormatting() {
     cout << "Octal: " << resetiosflags(ios::basefield) <<  setiosflags(ios::oct) << 123 << endl;
     cout << "Dec: " << resetiosflags(ios::basefield) <<  setiosflags(ios::dec) << 123 << endl;
 
-
-
     //Format Floating Point Output In C++
-
 
     cout << "\n\n";
     //
@@ -114,7 +115,6 @@ int numberFormatting() {
     cout.precision(cout.precision());
 
     cout << "Default precision & fixed format:  " << 1234.123456789012345 << endl;
-
 
     cout << "\n\n";
 

@@ -65,15 +65,13 @@ int computingWNumbers();
 
 
 int textStyling(){
-
-	//std::cout << setprecision(3) << 2.71828;
-	//std::cout << setbase(16) << 32;
-
 	//red,bold,italizcs,bg
-	cout << "\n42. \x1b[38;5;80;1;40m \t\tMy Text \t\t \x1b[0m" << endl;
+	cout << "\n42. \x1b[38;5;80;1;40m \t\tMy Text with 256 non-standard\t\t \x1b[0m" << endl;
+	cout << "\n42. \x1b[31;4m \t\tMy Text \t\t \x1b[0m" << endl;
+	cout << "\n42. \x1b[38;2;50;175;255;1;40m \t\tMy Text with RGB color.\t\t \x1b[0m" << endl;
 
-    cout<<"\n43a. \x1b[31;1;9;3;43m Yellow Background   \x1b[0m";
-    cout<<"\n43b. \x1b[31;2;3;5;9;46m Red Bold Text     \x1b[0m";
+    cout<<"\n43a. \x1b[31;1;9;3;43m Yellow Background                 \x1b[0m";
+    cout<<"\n43b. \x1b[31;2;3;5;9;46m Red Bold Text                     \x1b[0m";
     cout<<"\n43c. \x1b[1;31m Bold, Red Text     		\x1b[0m";
     cout<<"\n44. \x1b[44m Blue Background       		\x1b[0m";
     cout<<"\n45. \x1b[45m Pink Background       		\x1b[0m";
