@@ -1,5 +1,5 @@
 /*Test comment.
- /from class
+ /from class. yes.
  * Comment section.
  * ColorFormat.cpp
  *
